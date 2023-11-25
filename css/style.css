@@ -9,12 +9,12 @@ body {
 
 ::-moz-selection {
   color: #fff;
-  background: #F07E19;
+  background: #F30603;
 }
 
 ::selection {
   color: #fff;
-  background: #F07E19;
+  background: #F30603;
 }
 
 a {
@@ -90,6 +90,9 @@ textarea.form-control {
   font-weight: bold;
   line-height: 1;
   font-family: "Playfair+Display", times, serif;
+  display: flex;
+  height: 25%;
+ 
 }
 
 .site-navbar {
@@ -126,7 +129,7 @@ textarea.form-control {
   height: 50%;
   width: 0%;
   z-index: -1;
-  background: #F07E19;
+  background: #F30603;
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
@@ -345,7 +348,7 @@ textarea.form-control {
 }
 
 .visit-section .visit a:hover {
-  color: #F07E19;
+  color: #F30603;
 }
 
 .visit-section .visit img {
@@ -361,7 +364,7 @@ textarea.form-control {
 
 .visit-section .reviews-star span {
   font-size: 18px;
-  color: #F07E19;
+  color: #F30603;
 }
 
 .visit-section .reviews-count {
@@ -478,7 +481,7 @@ textarea.form-control {
 }
 
 .post .media-custom a:hover {
-  color: #F07E19;
+  color: #F30603;
 }
 
 .post .media-custom .media-body {
@@ -950,7 +953,7 @@ textarea.form-control {
   font-size: 1.75rem; 
   line-height: 24px;
   font-weight: 500;
-  color: #F07E19;
+  color: #F30603;
   padding: 0 30px;
   outline: none;
   cursor: pointer;
@@ -960,7 +963,7 @@ textarea.form-control {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #F07E19;
+  color: #F30603;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -979,7 +982,7 @@ textarea.form-control {
   color: black;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #D87016;
+  color: #C00604;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
